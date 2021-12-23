@@ -4,22 +4,19 @@
 }
 
 @media screen and (max-width: 1120px) {
-    .intro {
-      margin-left: 48px;
-    }
-  
-  } 
+  .intro {
+    margin-left: 48px;
+  }
+} 
 
-  @media screen and (max-width: 840px) {
-    .intro {
-      margin-left: 24px;
-    }
-  
-  } 
+@media screen and (max-width: 840px) {
+  .intro {
+    margin-left: 24px;
+  }
+} 
 
-  @media screen and (max-width: 700px) {
-    .intro {
-      margin-left: 16px;
-    }
-  
-  } 
+@media screen and (max-width: 700px) {
+  .intro {
+    margin-left: 16px;
+  }
+} 

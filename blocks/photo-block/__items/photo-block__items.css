@@ -1,13 +1,12 @@
 .photo-block__items {
-
-    display: grid;
-    gap: 16px;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
 } 
 
 @media screen and (max-width: 700px) {
-    .photo-block__items {
-     gap: 12px;
-    }
+  .photo-block__items {
+    gap: 12px;
+  }
   
-  }  
+}  
