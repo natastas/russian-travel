@@ -1,0 +1,10 @@
+.footer__author-link {
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+    opacity: 1;
+}
+
+.footer__author-link:hover {
+    opacity: 0.5;
+}

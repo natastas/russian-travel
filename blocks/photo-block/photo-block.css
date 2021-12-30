@@ -1,0 +1,32 @@
+.photo-block {
+  margin: 0;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+}
+
+
+@media screen and (max-width: 1280px) {
+  .photo-block {
+    padding: 0 48px;
+  }
+  
+}
+
+@media screen and (max-width: 960px) {
+  .photo-block {
+    padding: 0 24px;
+  }
+  
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .photo-block {
+    gap: 12px;
+    padding: 0 16px;
+  }
+  
+}
+
